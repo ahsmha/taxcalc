@@ -10,21 +10,29 @@ This is a Golang application that generates a receipt based on the given items a
 
 1. Clone this repository to your local machine:
 
-```git clone <repository-url>```
+```
+git clone https://github.com/ahsmha/taxcalc
+```
 
 2. Change into the project directory:
 
-```cd taxcalc```
+```
+cd taxcalc
+```
 
 3. Build the application:
 
-```go build```
+```
+go build
+```
 
 ## How to Run
 
 1. After building the application, you can run it with:
 
-`./taxcalc`
+```
+./taxcalc
+```
 
 2. Enter the shopping basket items in the format: `<quantity> <name> at <price>`, one item per line.
 
